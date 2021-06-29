@@ -1,0 +1,41 @@
+.Article{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #CCC;
+    padding: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+
+image{
+    height: 200px;
+    width: 150px;
+ }
+ 
+ .Article.meta{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    font-family: sans-serif;
+}
+
+
+h3 {
+    color: rgb(212, 11, 11);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.price{
+    font-weight: 500;
+    color: rgb(92, 17, 17);
+    font-size: 30px;
+}
+
+.description{
+    font-weight: 500 ;
+    color: rgb(231, 94, 94);
+    font-size: 30px;
+}
