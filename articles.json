@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "60dc1e5eb57fd144906be6c7"
+  },
+  "name": "chaussure",
+  "description": "fantaisiekkkkkkkkkkk",
+  "price": 500,
+  "image": "/aucune.jpg",
+  "categories": []
+},{
+  "_id": {
+    "$oid": "60dc2205b57fd144906be6c8"
+  },
+  "name": "chausson",
+  "description": "été/hiver/printemps",
+  "price": 500,
+  "image": "",
+  "categories": [
+    ""
+  ]
+}]
