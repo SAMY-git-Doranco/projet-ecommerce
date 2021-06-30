@@ -13,6 +13,8 @@ fastify.register(require('fastify-mongodb'), {
 
 //Importation des routes
 fastify.register(require('./routes/articles'));
+fastify.register(require('./routes/users'));
+fastify.register(require('./routes/login'));
 
 // GET http://localhost:4000/articles
 

@@ -17,7 +17,7 @@ const Home = () => {
         fetch("http://localhost:4000/articles", {
           method: "GET",
           
-        }).then(res => res.json())
+        }).then((res) => res.json())
           .then(data => {
             setArticles(data);
             console.log(data);
