@@ -2,14 +2,35 @@
 
 ###
 
-POST http://localhost:3000/articles HTTP/1.1
+POST http://localhost:4000/articles HTTP/1.1
 Content-Type: application/json
 
 {
-	"name": "Saumon grillé",
-	"image": "img/food/foodiesfeed.com_grilled-salmon-cubes-with-vegetables (Small).jpg",
-	"price": 1850,
-	"description": "Saumon grillé sur som lit de légumes méditerranéen",
-	"categories": ["spicy"],
-	"popular": false
+	"name": "converses",
+	"image": "",
+	"price": 2000,
+	"description": "maison exterieur",
+	"categories": [""]
+	
+}
+
+###
+
+GET http://localhost:4000/articles/60dc26ffb57fd144906be6c9
+
+###
+# DELETE USER
+DELETE http://localhost:4000/articles/60dc26ffb57fd144906be6c9
+
+###
+
+PATCH http://localhost:4000/articles/60dc2205b57fd144906be6c8
+Content-Type: application/json
+
+{
+	"name": "chausson",
+	"image": "",
+	"price": 500,
+	"description": "été/hiver/printemps",
+	"categories": [""]
 }

@@ -24,8 +24,9 @@ const AddArticle = () => {
 		}).then(res => res.json())
 		  .then(data => console.log(data))
 		  .catch(err => console.error(err))
+	
 	}
-
+	
     const onChangePrice = (event) => {
 		// Je récupère la valeur tapée par l'utilisateur grâce à event.target.value
 		setPrice(event.target.value)

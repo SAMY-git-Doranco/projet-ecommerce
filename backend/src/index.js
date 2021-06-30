@@ -1,7 +1,10 @@
 const fastify = require('fastify')({ logger: true })
 
 const PORT = 4000
-
+//Autorisation toutes les requetes
+fastify.register(require('fastify-cors'), { 
+    origin:'*'
+  })
 
 fastify.register(require('fastify-mongodb'), {
     forceClose: true,
